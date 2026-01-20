@@ -1,0 +1,30 @@
+/*texto*/
+.destacar{ color: blueviolet; font-weight: bold;
+
+} 
+
+.mb-2 { color: #0d6efd;}
+p {
+  text-align: justify; 
+}
+
+      /* Tipografía */
+      body { font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, sans-serif; font-size: 11pt; }
+
+      /* Imagen de la card derecha */
+      .hero-img { max-height: 260px; object-fit: cover; }
+
+      /* Iconos redes */
+      .social-icon { width: 34px; height: 34px; object-fit: contain; }
+
+      /* Publicidades: franja que crece hasta el footer. El contenido se pondrá después */
+      .publicidades {
+        background-color: #0d6efd ;  
+        border: 2px solid #000;
+        border-radius: 16px;
+        min-height: 180px;
+      }
+ main p {
+  margin-bottom: 0.1
+  rem;}
+  

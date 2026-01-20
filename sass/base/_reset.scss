@@ -1,0 +1,9 @@
+@use "typography" as *;
+
+body {
+  font-family: $font-base;
+}
+
+p {
+text-align: justify;
+}
