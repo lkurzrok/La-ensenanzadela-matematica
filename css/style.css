@@ -24,7 +24,7 @@ h1,
 /* h2 — subtítulo fuerte */
 h2,
 .h2 {
-  color: #6546b9;
+  color: #0f7fc9;
   font-size: 1.6rem;
   line-height: 1.25;
 }
@@ -163,6 +163,19 @@ main p {
 
 .texto-secundario {
   color: rgb(7, 58, 58);
+}
+
+/* Juego embebido */
+.juego-embed {
+  margin-top: 1rem;
+}
+
+/* En desktop, el juego crece para acompañar publicidades */
+@media (min-width: 992px) {
+  .juego-embed,
+  .juego-embed iframe {
+    min-height: 520px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
