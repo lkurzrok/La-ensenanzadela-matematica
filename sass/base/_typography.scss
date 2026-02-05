@@ -1,1 +1,62 @@
+/* =========================
+   Tipografía base del sitio
+   ========================= */
+
+/* Fuentes */
 $font-base: Verdana, Geneva, Tahoma, Arial, sans-serif;
+
+/* Colores */
+$color-h1: #0f7fc9;      // azul más profundo (máxima jerarquía)
+$color-h2: #6546b9;      // verde azulado (segunda jerarquía)
+$color-h-resto: #0d47a1; // azul académico
+$color-texto: #252729;
+
+/* Texto general */
+body {
+  font-family: $font-base;
+  color: $color-texto;
+}
+
+/* =========================
+   Títulos
+   ========================= */
+
+/* h1 — título principal */
+h1,
+.h1 {
+  color: $color-h1;
+  font-size: 2.1rem;
+  line-height: 1.2;
+}
+
+/* h2 — subtítulo fuerte */
+h2,
+.h2 {
+  color: $color-h2;
+  font-size: 1.6rem;
+  line-height: 1.25;
+}
+
+/* h3 a h6 — jerarquía secundaria */
+h3, h4, h5, h6,
+.h3, .h4, .h5, .h6 {
+  color: $color-h-resto;
+}
+
+h3, .h3 {
+  font-size: 1.35rem;
+}
+
+h4, .h4 {
+  font-size: 1.15rem;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+}
+
+h6, .h6 {
+  font-size: 0.95rem;
+}
+
+

@@ -1,9 +1,8 @@
-// Base (estos archivos existen en tu carpeta sass/base)
+// Base
 @use "./base/reset";
 @use "./base/images";
 @use "./base/typography";
 @use "./base/animations";
-
 
 // Layout
 @use "./layout/footer";

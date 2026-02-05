@@ -1,4 +1,56 @@
 @charset "UTF-8";
+/* =========================
+   Tipografía base del sitio
+   ========================= */
+/* Fuentes */
+/* Colores */
+/* Texto general */
+body {
+  font-family: Verdana, Geneva, Tahoma, Arial, sans-serif;
+  color: #252729;
+}
+
+/* =========================
+   Títulos
+   ========================= */
+/* h1 — título principal */
+h1,
+.h1 {
+  color: #0f7fc9;
+  font-size: 2.1rem;
+  line-height: 1.2;
+}
+
+/* h2 — subtítulo fuerte */
+h2,
+.h2 {
+  color: #6546b9;
+  font-size: 1.6rem;
+  line-height: 1.25;
+}
+
+/* h3 a h6 — jerarquía secundaria */
+h3, h4, h5, h6,
+.h3, .h4, .h5, .h6 {
+  color: #0d47a1;
+}
+
+h3, .h3 {
+  font-size: 1.35rem;
+}
+
+h4, .h4 {
+  font-size: 1.15rem;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+}
+
+h6, .h6 {
+  font-size: 0.95rem;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, Arial, sans-serif;
 }
@@ -82,34 +134,35 @@ main p {
   margin-bottom: 0.1rem;
 }
 
+.bg-contacto {
+  background-color: #759ac0;
+}
+
 .publicidades {
   background-color: #0d6efd;
-  border: 2px solid #000;
-  border-radius: 16px;
-  min-height: 180px;
+  min-height: 220px;
+  border-radius: 1rem;
 }
-
-/* Animación suave para las imágenes */
-.img-hover {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
+.publicidades img {
+  max-height: 120px;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
-.img-hover:hover {
-  transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+.publicidades img.img-hover:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
 .destacar {
   color: blueviolet;
 }
 
-.mb-2 {
-  color: blue;
+.texto-acento {
+  color: #00695c;
 }
 
-.mb-3 {
-  color: aqua;
+.texto-secundario {
+  color: rgb(7, 58, 58);
 }
 
 /*# sourceMappingURL=style.css.map */
