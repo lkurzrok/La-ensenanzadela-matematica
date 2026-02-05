@@ -1,0 +1,12 @@
+/* Juego embebido */
+.juego-embed {
+  margin-top: 1rem;
+}
+
+/* En desktop, el juego crece para acompañar publicidades */
+@media (min-width: 992px) {
+  .juego-embed,
+  .juego-embed iframe {
+    min-height: 520px;
+  }
+}
