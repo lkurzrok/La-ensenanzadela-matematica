@@ -1,3 +1,19 @@
- /* Iconos redes */
-      .social-icon { width: 34px; height: 34px; object-fit: contain; }
-      
+/* layout/_footer.scss */
+
+.site-footer {
+  margin-top: 3rem;
+
+  /* Links del footer */
+  a {
+    line-height: 1.2;
+  }
+
+  /* Iconos redes */
+  img.social-icon {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    display: block;
+    flex: 0 0 auto;
+  }
+}

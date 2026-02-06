@@ -13,3 +13,22 @@ margin-bottom: 0.1rem;
   margin-top: auto;
 }
 
+// Layout base de páginas con sidebar
+.page-main {
+  padding-bottom: 3rem;
+}
+
+.page-grid {
+  align-items: stretch;
+}
+
+// Sidebar: que siempre apile card + publicidades y se estire bien
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+// Para que las publicidades “vayan abajo” si hay espacio
+.sidebar .publicidades {
+  margin-top: auto;
+}

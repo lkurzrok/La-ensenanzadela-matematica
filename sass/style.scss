@@ -5,13 +5,13 @@
 @use "./base/animations";
 
 // Layout
-@use "./layout/footer";
 @use "./layout/main";
+@use "./layout/footer";
 
 // Components
 @use "./components/publicidades";
 @use "./components/text";
-@use "components/juegos";
+@use "./components/juegos";
 
 
 

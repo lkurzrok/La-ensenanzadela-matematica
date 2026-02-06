@@ -1,18 +1,44 @@
+/* components/_publicidades.scss */
+
 .publicidades {
   background-color: #94bce4;
   border-radius: 1rem;
 
+  .public-box {
+    height: 140px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+
+    background: #fff;
+    padding: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .public-img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    transition: transform 0.3s ease;
+    height: 100%;
+    object-fit: contain;   /* clave para logos */
+    display: block;
+    transition: transform 0.25s ease;
   }
 
   .public-img:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
+  }
+
+  @media (min-width: 992px) {
+    .public-box {
+      height: 160px;
+      padding: 14px;
+    }
   }
 }
+
+
+
 
 
 

@@ -123,13 +123,6 @@ p {
   transform: scale(1.03);
 }
 
-/* Iconos redes */
-.social-icon {
-  width: 34px;
-  height: 34px;
-  object-fit: contain;
-}
-
 main p {
   margin-bottom: 0.1rem;
 }
@@ -147,18 +140,72 @@ main p {
   margin-top: auto;
 }
 
+.page-main {
+  padding-bottom: 3rem;
+}
+
+.page-grid {
+  align-items: stretch;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .publicidades {
+  margin-top: auto;
+}
+
+/* layout/_footer.scss */
+.site-footer {
+  margin-top: 3rem;
+  /* Links del footer */
+}
+.site-footer a {
+  line-height: 1.2;
+}
+.site-footer {
+  /* Iconos redes */
+}
+.site-footer img.social-icon {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  display: block;
+  flex: 0 0 auto;
+}
+
+/* components/_publicidades.scss */
 .publicidades {
   background-color: #94bce4;
   border-radius: 1rem;
 }
+.publicidades .public-box {
+  height: 140px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: #fff;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .publicidades .public-img {
   width: 100%;
-  height: auto;
-  object-fit: cover;
-  transition: transform 0.3s ease;
+  height: 100%;
+  object-fit: contain; /* clave para logos */
+  display: block;
+  transition: transform 0.25s ease;
 }
 .publicidades .public-img:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
+}
+@media (min-width: 992px) {
+  .publicidades .public-box {
+    height: 160px;
+    padding: 14px;
+  }
 }
 
 .destacar {
