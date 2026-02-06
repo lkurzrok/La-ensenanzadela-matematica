@@ -32,3 +32,16 @@ margin-bottom: 0.1rem;
 .sidebar .publicidades {
   margin-top: auto;
 }
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main .container {
+  flex: 1;
+}
+
+main .row {
+  height: 100%;
+}
+
